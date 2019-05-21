@@ -4,9 +4,9 @@
 *  run `npm install`
 * run `npm start` to start the dev server with nodemon
 
-##pre-req
-* download Stanford NER
-* install anaconda NLTPK 
+## Pre-Req
+* download Stanford NER [https://nlp.stanford.edu/software/CRF-NER.html#Download]
+* install anaconda NLTK [https://anaconda.org/anaconda/nltk]
 
 ## API links 
 * [GET]http://localhost:3000/
