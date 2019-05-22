@@ -17,3 +17,11 @@
 
 
 
+## Curl
+* curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/
+
+* curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/callpythonscript  -d '{"firstname":"test","lastname":"test"}'
+
+* curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/callexample1  -d '{"sentence":["abc","def"]}'
+
+* curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/callexample2  -d '{"sentence" : "Fred is studying at Stony Brook University in NY"}'
