@@ -1,4 +1,4 @@
-# Express + Babel Server
+# Express + Python shell examples to execute AI/ML code
 
 ## How to use?
 *  run `npm install`
