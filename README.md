@@ -38,6 +38,7 @@ ab -p tf.json -T application/json  -c 30 -n 30 http://localhost:3000/calltfexamp
 
 ## AB metrics for 30 concurrent users accessing tensorflow model api end point 
 
+```
 This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -83,3 +84,4 @@ Percentage of the requests served within a certain time (ms)
   98%  12701
   99%  12701
  100%  12701 (longest request)
+ ```
