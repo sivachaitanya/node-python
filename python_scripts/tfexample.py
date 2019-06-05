@@ -11,9 +11,9 @@ def testfunc( jsondata ):
         model = tf.keras.models.Model(inputs=input, outputs=output)
         model.compile(loss='mse', optimizer='sgd')
         model.fit(np.random.normal(0, 1, (200, 20)), np.random.normal(0, 1, (200, 2)))
-        print(json.dumps({"output":"it works"}))
+        print(json.dumps({"htmloutput":"it works"}))
     except SyntaxError:
-        print(json.dumps({"output":"a syntax error has occurred"}))
+        print(json.dumps({"htmloutput":"a syntax error has occurred"}))
     
 
 testfunc(sys.argv[1])
